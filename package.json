@@ -1,0 +1,25 @@
+{
+  "name": "residence",
+  "version": "0.0.1",
+  "description": "Find roots and project home",
+  "main": "index.js",
+  "scripts": {
+    "test": "suman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORESoftware/residence.git"
+  },
+  "keywords": [
+    "search",
+    "find-root",
+    "home",
+    "project-root"
+  ],
+  "author": "Olegzandr Denman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ORESoftware/residence/issues"
+  },
+  "homepage": "https://github.com/ORESoftware/residence#readme"
+}
