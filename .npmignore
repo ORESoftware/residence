@@ -1,0 +1,7 @@
+*.sh
+*.txt
+*.log
+*.md
+.idea
+test
+node_modules

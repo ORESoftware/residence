@@ -1,7 +1,7 @@
 {
   "name": "residence",
   "version": "0.0.1",
-  "description": "Find roots and project home",
+  "description": "Find project root given current working directory",
   "main": "index.js",
   "scripts": {
     "test": "suman"
@@ -12,9 +12,10 @@
   },
   "keywords": [
     "search",
-    "find-root",
+    "find root",
     "home",
-    "project-root"
+    "project root",
+    "suman"
   ],
   "author": "Olegzandr Denman",
   "license": "ISC",
