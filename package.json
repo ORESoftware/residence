@@ -1,6 +1,6 @@
 {
   "name": "residence",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Find project root given current working directory",
   "main": "index.js",
   "scripts": {
