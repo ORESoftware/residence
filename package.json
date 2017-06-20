@@ -3,6 +3,8 @@
   "version": "0.0.204",
   "description": "Find project root given current working directory",
   "main": "index.js",
+  "types": "index.d.ts",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "suman"
   },
