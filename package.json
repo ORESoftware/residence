@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ORESoftware/residence/issues"
   },
-  "homepage": "https://github.com/ORESoftware/residence#readme"
+  "homepage": "https://github.com/ORESoftware/residence#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.0"
+  }
 }
