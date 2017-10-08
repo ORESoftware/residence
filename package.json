@@ -1,17 +1,23 @@
 {
-  "name": "residence",
-  "version": "0.0.205",
+  "_id": "residence@0.0.205",
+  "_location": "/residence",
+  "_phantomChildren": {},
+  "_requiredBy": [
+    "#EXISTING"
+  ],
+  "author": {
+    "name": "Olegzandr Denman"
+  },
+  "bugs": {
+    "url": "https://github.com/ORESoftware/residence/issues"
+  },
+  "dependencies": {},
   "description": "Find project root given current working directory",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "typings": "index.d.ts",
-  "scripts": {
-    "test": "suman"
+  "devDependencies": {
+    "@types/node": "^8.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ORESoftware/residence.git"
-  },
+  "gitHead": "0eca9260f550f6553495e2222d2a087c6357d395",
+  "homepage": "https://github.com/ORESoftware/residence#readme",
   "keywords": [
     "search",
     "find root",
@@ -19,13 +25,20 @@
     "project root",
     "suman"
   ],
-  "author": "Olegzandr Denman",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ORESoftware/residence/issues"
+  "main": "index.js",
+  "name": "residence",
+  "optionalDependencies": {},
+  "readme": "\n\n# Residence => node-residence\n\nAllows you find a root of a project given current working directory (```process.cwd()```)",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORESoftware/residence.git"
   },
-  "homepage": "https://github.com/ORESoftware/residence#readme",
-  "devDependencies": {
-    "@types/node": "^8.0.0"
-  }
+  "scripts": {
+    "test": "suman"
+  },
+  "types": "index.d.ts",
+  "typings": "index.d.ts",
+  "version": "0.0.206"
 }
