@@ -1,7 +1,20 @@
+
+### folders
+.idea
+test
+node_modules
+
+### matching files
 *.sh
 *.txt
 *.log
 *.md
-.idea
-test
-node_modules
+*.ts
+*.json
+
+### files
+.gitignore
+.npmignore
+
+### negation
+!*.d.ts

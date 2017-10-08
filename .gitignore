@@ -1,2 +1,7 @@
+
+### folders
 .idea
 node_modules
+
+### matching files
+*.log
