@@ -9,7 +9,7 @@ exports.findProjectRoot = function findRoot(pth) {
             return pth;
         }
         else {
-            throw ' => a "package.json" <i>directory</i>? alrighty then...';
+            throw ' => a "package.json" <i>directory</i>...? alrighty then...';
         }
     }
     catch (err) {
