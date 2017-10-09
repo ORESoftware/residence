@@ -11,12 +11,13 @@ node_modules
 *.md
 *.ts
 *.json
+*.yml
 
 ### files
 .gitignore
 .npmignore
-package-lock.json
 yarn.lock
+.editorconfig
 
 ### negation
 !*.d.ts
