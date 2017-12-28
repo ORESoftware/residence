@@ -3,7 +3,7 @@ const fs = require('fs');
 
 export const findProjectRoot = function findRoot(pth: string) : string | null {
 
-  var possiblePkgDotJsonPath = path.resolve(String(pth) + '/package.json');
+  let possiblePkgDotJsonPath = path.resolve(String(pth) + '/package.json');
 
   try {
     if (fs.statSync(possiblePkgDotJsonPath).isFile()) {
@@ -14,7 +14,7 @@ export const findProjectRoot = function findRoot(pth: string) : string | null {
     }
   }
   catch (err) {
-    var subPath = path.resolve(String(pth) + '/../');
+    let subPath = path.resolve(String(pth) + '/../');
     if (subPath === pth) {
       return null;
     }
