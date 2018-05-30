@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
+    "outDir": "dist",
+    "skipLibCheck": true,
     "declaration": true,
     "baseUrl": ".",
     "paths": {
     },
-    "types": [
-      "node"
-    ],
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
     "noImplicitAny": true,
     "removeComments": true,
@@ -19,10 +18,6 @@
   },
   "compileOnSave": false,
   "include": [
-    "./**/*.ts"
-  ],
-  "exclude": [
-    "test",
-    "node_modules"
+    "src"
   ]
 }

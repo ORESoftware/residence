@@ -6,6 +6,12 @@ node_modules
 ### matching files
 *.log
 
+### folders
+dist
+
 ### files
 package-lock.json
 yarn.lock
+
+### negation
+!dist/README.md
