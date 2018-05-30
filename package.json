@@ -25,8 +25,8 @@
     "project root",
     "suman"
   ],
-  "license": "ISC",
-  "main": "index.js",
+  "license": "MIT",
+  "main": "dist/index.js",
   "name": "residence",
   "optionalDependencies": {},
   "readme": "\n\n# Residence => node-residence\n\nAllows you find a root of a project given current working directory (```process.cwd()```)",
@@ -38,7 +38,7 @@
   "scripts": {
     "test": "suman"
   },
-  "types": "index.d.ts",
-  "typings": "index.d.ts",
-  "version": "0.0.207"
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "version": "0.0.208"
 }
