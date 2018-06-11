@@ -27,6 +27,9 @@
   ],
   "license": "MIT",
   "main": "dist/index.js",
+  "bin": {
+    "residence_find_proj_root": "dist/cli.js"
+  },
   "name": "residence",
   "optionalDependencies": {},
   "readme": "\n\n# Residence => node-residence\n\nAllows you find a root of a project given current working directory (```process.cwd()```)",
@@ -40,5 +43,5 @@
   },
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
-  "version": "0.0.208"
+  "version": "0.0.209"
 }
