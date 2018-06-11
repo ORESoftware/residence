@@ -39,7 +39,7 @@
     "url": "git+https://github.com/ORESoftware/residence.git"
   },
   "scripts": {
-    "test": "suman"
+    "test": "suman test"
   },
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
