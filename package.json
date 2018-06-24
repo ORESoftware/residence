@@ -8,6 +8,9 @@
   "author": {
     "name": "Olegzandr Denman"
   },
+  "nlu": {
+    "linkable": true
+  },
   "bugs": {
     "url": "https://github.com/ORESoftware/residence/issues"
   },
@@ -43,5 +46,5 @@
   },
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
-  "version": "0.0.209"
+  "version": "0.0.210"
 }
