@@ -46,5 +46,5 @@
   },
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
-  "version": "0.0.211"
+  "version": "0.0.212"
 }
