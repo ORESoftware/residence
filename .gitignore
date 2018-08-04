@@ -14,4 +14,4 @@ package-lock.json
 yarn.lock
 
 ### negation
-!dist/README.md
+!dist/readme.md
