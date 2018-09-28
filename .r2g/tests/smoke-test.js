@@ -37,4 +37,9 @@ process.on('unhandledRejection', (reason, p) => {
 });
 
 
-// your test goes here
+const residence = require('residence');
+const root = residence.findRootDir(process.cwd(), 'package.json');
+const root1 = residence.findProjectRoot(process.cwd());
+console.log('root:', root);
+console.log('root1:', root1);
+assert.strictEqual(root, root1);

@@ -1,27 +1,36 @@
-const path = require('path');
-const fs = require('fs');
+'use strict';
 
-export const findProjectRoot = function findRoot(pth: string, f?: string) : string | null {
-  
-  f = f || 'package.json';
-  
+import * as path from 'path';
+import * as fs from 'fs';
+
+
+export const r2gSmokeTest = () => {
+  return true;
+};
+
+export const findRootDir = (pth: string, f: string): string => {
+
   let possiblePkgDotJsonPath = path.resolve(pth + '/' + f);
 
   try {
     if (fs.statSync(possiblePkgDotJsonPath).isFile()) {
       return pth;
     }
-   
-    throw `file at path "${possiblePkgDotJsonPath}" not found, will continue walking up the tree.`
   }
   catch (err) {
-    let subPath = path.resolve(pth + '/../');
-    if (subPath === pth) {
-      return null;
-    }
-    else {
-      return findRoot(subPath);
-    }
+    // ignore
   }
 
+  let subPath = path.resolve(pth + '/../');
+
+  if (subPath === pth) {
+    return null;
+  }
+
+  return findRootDir(subPath, f);
+
+};
+
+export const findProjectRoot = (pth: string): string => {
+  return findRootDir(pth, 'package.json');
 };
