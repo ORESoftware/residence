@@ -44,7 +44,10 @@
   "scripts": {
     "test": "suman test"
   },
+  "r2g": {
+    "test": "echo 'r2g test is a noop here'"
+  },
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
-  "version": "0.0.213"
+  "version": "0.0.214"
 }
