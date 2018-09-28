@@ -1,7 +1,7 @@
 
 <br>
 
-[![Version](https://img.shields.io/npm/v/@oresoftware/residence.svg?colorB=green)](https://www.npmjs.com/package/residence)
+[![Version](https://img.shields.io/npm/v/residence.svg?colorB=green)](https://www.npmjs.com/package/residence)
 
 
 # Residence
