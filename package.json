@@ -1,23 +1,9 @@
 {
-  "_id": "residence@0.0.206",
-  "_location": "/residence",
-  "_phantomChildren": {},
-  "_requiredBy": [
-    "#EXISTING"
-  ],
+  "name": "residence",
+  "version": "0.0.217",
+  "description": "Find project root given current working directory",
   "author": {
     "name": "Olegzandr Denman"
-  },
-  "nlu": {
-    "linkable": true
-  },
-  "bugs": {
-    "url": "https://github.com/ORESoftware/residence/issues"
-  },
-  "dependencies": {},
-  "description": "Find project root given current working directory",
-  "devDependencies": {
-    "@types/node": "^8.0.0"
   },
   "gitHead": "0eca9260f550f6553495e2222d2a087c6357d395",
   "homepage": "https://github.com/ORESoftware/residence#readme",
@@ -29,14 +15,12 @@
     "suman"
   ],
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "typings": "dist/main.d.ts",
   "bin": {
     "residence_find_proj_root": "dist/cli.js"
   },
-  "name": "residence",
-  "optionalDependencies": {},
-  "readme": "\n\n# Residence => node-residence\n\nAllows you find a root of a project given current working directory (```process.cwd()```)",
-  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ORESoftware/residence.git"
@@ -47,7 +31,14 @@
   "r2g": {
     "test": "echo 'r2g test is a noop here'"
   },
-  "types": "dist/index.d.ts",
-  "typings": "dist/index.d.ts",
-  "version": "0.0.216"
+  "nlu": {
+    "linkable": true
+  },
+  "bugs": {
+    "url": "https://github.com/ORESoftware/residence/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.7.5"
+  }
 }
